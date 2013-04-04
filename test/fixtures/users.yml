@@ -3,3 +3,9 @@ niall:
   last_name: "Ryan"
   email: "ryann4@tcd.ie"
   profile_name: "nelsonry"
+
+emma:
+  first_name: "Emma"
+  last_name: "Sheridan"
+  email: "emma@email.com"
+  profile_name: "emmaemma"
