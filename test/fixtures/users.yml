@@ -9,3 +9,9 @@ emma:
   last_name: "Sheridan"
   email: "emma@email.com"
   profile_name: "emmaemma"
+
+maeve:
+  first_name: "Maeve"
+  last_name: "Garvan"
+  email: "maeve@email.com"
+  profile_name: "maeve"
