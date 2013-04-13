@@ -3,6 +3,7 @@ niall:
   last_name: "Ryan"
   email: "ryann4@tcd.ie"
   profile_name: "nelsonry"
+  encrypted_password: "$2a$10$Fh/Hm8RxDsuPTeBUr6864.GARlcmt7zF2WspaXGr3BIv2C27N.osq"
 
 emma:
   first_name: "Emma"
