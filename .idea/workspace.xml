@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9615ee72-5742-478d-bd0a-31dc8d4e5053" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/user_friendships/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/user_friendships/edit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/user_friendships_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/user_friendships_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GigHub.iws" />
@@ -17,7 +14,7 @@
     <file path="/statuses.css.scss" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1364224399612" ignored="false" />
     <file path="/statuses.js.coffee" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1364224320086" ignored="false" />
     <file path="/.gitignore" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1364224623593" ignored="false" />
-    <file path="/Gemfile" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1366064191281" ignored="false" />
+    <file path="/Gemfile" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1366064447154" ignored="false" />
     <file path="/routes.rb" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1366025215842" ignored="false" />
     <file path="/20130325230333_devise_create_users.rb" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1364252853010" ignored="false" />
     <file path="/new.html.erb" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1365631018747" ignored="false" />
@@ -124,7 +121,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="2" selection-start="232" selection-end="232" vertical-scroll-proportion="0.2284264">
+            <state line="12" column="8" selection-start="238" selection-end="238" vertical-scroll-proportion="0.2284264">
               <folding />
             </state>
           </provider>
@@ -795,7 +792,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="2" selection-start="232" selection-end="232" vertical-scroll-proportion="0.2284264">
+        <state line="12" column="8" selection-start="238" selection-end="238" vertical-scroll-proportion="0.2284264">
           <folding />
         </state>
       </provider>
