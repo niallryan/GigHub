@@ -2,20 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9615ee72-5742-478d-bd0a-31dc8d4e5053" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/user_friendships.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/user_friendships.js.coffee" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/user_friendships/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/user_friendships/edit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/profiles/show.html.erb" afterPath="$PROJECT_DIR$/app/views/profiles/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/user_friendships/index.html.erb" afterPath="$PROJECT_DIR$/app/views/user_friendships/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/decorators/user_friendship_decorator.rb" afterPath="$PROJECT_DIR$/app/decorators/user_friendship_decorator.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/decorators/user_friendship_decorator_test.rb" afterPath="$PROJECT_DIR$/test/decorators/user_friendship_decorator_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/user_friendships.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/user_friendships.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/user_friendships_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/user_friendships_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/functional/user_friendships_controller_test.rb" afterPath="$PROJECT_DIR$/test/functional/user_friendships_controller_test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GigHub.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1366102652686" ignored="false" />
-    <file path="/index.html.erb" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1366019538447" ignored="false" />
+    <file path="/Dummy.txt" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1366976497054" ignored="false" />
+    <file path="/index.html.erb" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1366900029438" ignored="false" />
     <file path="/application.html.erb" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1366027755061" ignored="false" />
     <file path="/application.css" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1364304195066" ignored="false" />
     <file path="/statuses.css.scss" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1364224399612" ignored="false" />
@@ -38,7 +35,7 @@
     <file path="/user_friendship_test.rb" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1366034263490" ignored="false" />
     <file path="/user_friendships.yml" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1365517231286" ignored="false" />
     <file path="/user_friendship.rb" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1366034332985" ignored="false" />
-    <file path="/user_friendships_controller.rb" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1366106650395" ignored="false" />
+    <file path="/user_friendships_controller.rb" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1366900336595" ignored="false" />
     <file path="/user_test.rb" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1365979229424" ignored="false" />
     <file path="/users.yml" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1365631767761" ignored="false" />
     <file path="/custom_routes_test.rb" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1365073440011" ignored="false" />
@@ -57,10 +54,10 @@
     <file path="/friend_requested.html.erb" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1365850640731" ignored="false" />
     <file path="/friend_request_accepted.html.erb" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1365852432163" ignored="false" />
     <file path="/factories.rb" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1365980644534" ignored="false" />
-    <file path="/user_friendship_decorator_test.rb" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1366060948242" ignored="false" />
-    <file path="/user_friendship_decorator.rb" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1366060763813" ignored="false" />
+    <file path="/user_friendship_decorator_test.rb" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1366899807521" ignored="false" />
+    <file path="/user_friendship_decorator.rb" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1366899936952" ignored="false" />
     <file path="/application.rb" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1366065554998" ignored="false" />
-    <file path="/user_friendships.js" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1366066548743" ignored="false" />
+    <file path="/user_friendships.js" changelist="9615ee72-5742-478d-bd0a-31dc8d4e5053" time="1366900258815" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,71 +78,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="21" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/application.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="49" selection-start="2851" selection-end="2851" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_friendships.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/user_friendships.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="109" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/profiles/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="91" selection-start="204" selection-end="204" vertical-scroll-proportion="-2.875">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_friendships_controller.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/user_friendships_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="69" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.36746988">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/user_friendships/edit.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="62" selection-start="364" selection-end="364" vertical-scroll-proportion="-6.875">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_friendships_controller_test.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/functional/user_friendships_controller_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="225" column="59" selection-start="6223" selection-end="6223" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -164,27 +97,27 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/user_friendships/index.html.erb" />
         <option value="$PROJECT_DIR$/test/unit/user_friendship_test.rb" />
         <option value="$PROJECT_DIR$/app/models/user_friendship.rb" />
         <option value="$PROJECT_DIR$/test/integration/add_a_friend_test.rb" />
-        <option value="$PROJECT_DIR$/app/decorators/user_friendship_decorator.rb" />
-        <option value="$PROJECT_DIR$/test/decorators/user_friendship_decorator_test.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/user_friendships.js.coffee" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/user_friendships.js" />
         <option value="$PROJECT_DIR$/app/views/profiles/show.html.erb" />
         <option value="$PROJECT_DIR$/test/functional/user_friendships_controller_test.rb" />
         <option value="$PROJECT_DIR$/app/views/user_friendships/edit.html.erb" />
+        <option value="$PROJECT_DIR$/test/decorators/user_friendship_decorator_test.rb" />
+        <option value="$PROJECT_DIR$/app/decorators/user_friendship_decorator.rb" />
+        <option value="$PROJECT_DIR$/app/views/user_friendships/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/user_friendships.js" />
         <option value="$PROJECT_DIR$/app/controllers/user_friendships_controller.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="66" />
-    <option name="y" value="458" />
+    <option name="x" value="67" />
+    <option name="y" value="486" />
     <option name="width" value="1213" />
     <option name="height" value="343" />
   </component>
@@ -202,7 +135,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -213,13 +146,7 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
-      <pane id="RailsProjectView" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -516,14 +443,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="66" y="458" width="1213" height="343" extended-state="0" />
-    <editor active="true" />
+    <frame x="67" y="486" width="1213" height="343" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864675" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932073" sideWeight="0.92561984" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24862888" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35055986" sideWeight="0.6732673" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35055986" sideWeight="0.9570552" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32906765" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32673267" sideWeight="0.494411" order="7" side_tool="true" content_ui="tabs" />
@@ -600,11 +527,6 @@
         <state line="20" column="64" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/user_friendships/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="50" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/user_friendship_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="131" column="26" selection-start="4076" selection-end="4076" vertical-scroll-proportion="0.0" />
@@ -612,26 +534,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user_friendship.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="41" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="41" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/integration/add_a_friend_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="45" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/decorators/user_friendship_decorator.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="104" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/decorators/user_friendship_decorator_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="2" selection-start="921" selection-end="921" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
@@ -660,37 +568,58 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/user_friendships.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="109" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/profiles/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="91" selection-start="204" selection-end="204" vertical-scroll-proportion="-2.875">
+        <state line="6" column="91" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/user_friendships/edit.html.erb">
+    <entry file="file://$PROJECT_DIR$/test/decorators/user_friendship_decorator_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="62" selection-start="364" selection-end="364" vertical-scroll-proportion="-6.875">
+        <state line="16" column="44" selection-start="489" selection-end="489" vertical-scroll-proportion="0.090361446">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/functional/user_friendships_controller_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="225" column="59" selection-start="6223" selection-end="6223" vertical-scroll-proportion="0.0">
+        <state line="225" column="59" selection-start="6223" selection-end="6223" vertical-scroll-proportion="0.078947365">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/user_friendships/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="62" selection-start="364" selection-end="364" vertical-scroll-proportion="0.090361446">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/decorators/user_friendship_decorator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="31" selection-start="212" selection-end="212" vertical-scroll-proportion="0.078947365">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/user_friendships/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="135" selection-start="570" selection-end="570" vertical-scroll-proportion="0.090361446">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/user_friendships.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="40" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/user_friendships_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="69" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.36746988">
+        <state line="8" column="14" selection-start="205" selection-end="205" vertical-scroll-proportion="0.090361446">
           <folding />
         </state>
       </provider>
