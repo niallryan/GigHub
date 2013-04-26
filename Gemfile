@@ -11,6 +11,7 @@ gem 'state_machine'
 gem 'factory_girl_rails'
 gem 'draper'
 gem 'js-routes'
+gem 'paperclip'
 
 group :test do
   gem 'shoulda'
