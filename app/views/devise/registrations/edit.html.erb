@@ -10,6 +10,19 @@
 
   <div><%= f.button :submit, "Update" %></div>
   </fieldset>
+
+  <fieldset>
+    <legend>Profile Picture</legend>
+    <%=  f.input :avatar, as: :file %>
+    <% if f.object.avatar? %>
+        <div class="control-group">
+          <label class="control-label">Current Avatar</label>
+          <div class="controls">
+            <%= image_tag f.object.avatar.url %>
+          </div>
+        </div>
+    <% end %>
+  </fieldset>
 <% end %>
 
 <h3>Cancel my account</h3>

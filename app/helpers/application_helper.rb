@@ -9,6 +9,11 @@ module ApplicationHelper
     end
   end
 
+  def avatar_profile_link(user, image_options={}, html_option={})
+    avatar_url = user.avatar? ? user.avatar.url : user.gravatar_url
+    link_to(image_tag(avatar_url, image_options), profile_path(user.profile_name))
+  end
+
   def flash_class(type)
     case type
       when :alert

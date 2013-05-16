@@ -6,7 +6,7 @@ class User < ActiveRecord::Base
 
   # Setup accessible (or protected) attributes for your model
   attr_accessible :email, :password, :password_confirmation, :remember_me,
-                  :first_name, :last_name, :profile_name
+                  :first_name, :last_name, :profile_name, :avatar
   # attr_accessible :title, :body
 
   has_many :statuses
@@ -19,6 +19,8 @@ class User < ActiveRecord::Base
   has_many :pending_friends, through: :pending_user_friendships, source: :friend
   has_many :events
 
+  has_attached_file :avatar
+
   validates :first_name, presence: true
   validates :last_name, presence: true
   validates :profile_name, presence: true,
@@ -27,8 +29,6 @@ class User < ActiveRecord::Base
                             with: /^[a-zA-Z0-9_-]+$/,
                             message: "Must be formatted correctly."
                            }
-
-
 
   def full_name
      first_name + " " + last_name
