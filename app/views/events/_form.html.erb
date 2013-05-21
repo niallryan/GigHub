@@ -6,6 +6,13 @@
     <%= f.input :content %>
   </div>
 
+  <div>
+    <%= f.input :picture, as: :file %>
+    <% if f.object.picture? %>
+        <%= image_tag f.object.picture.url %>
+    <% end %>
+  </div>
+
   <div class="form-actions">
     <%= f.button :submit %>
   </div>
