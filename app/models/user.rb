@@ -18,8 +18,9 @@ class User < ActiveRecord::Base
                                       conditions: { state: 'pending' }
   has_many :pending_friends, through: :pending_user_friendships, source: :friend
   has_many :events
+  has_many :authentications
 
-  has_attached_file :avatar
+  has_attached_file :avatar, styles: { large: "800x800>", medium: "300x200>", small: "260x180>", thumb: "80x80#" }
 
   validates :first_name, presence: true
   validates :last_name, presence: true

@@ -11,7 +11,7 @@
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <a href="#" class="brand">GigHub</a>
+          <%= link_to "GigHub", root_path, { :class => "brand" } %>
           <ul class="nav">
             <li><%= link_to "Updates", feed_path %></li>
             <li><%= link_to "Events", events_path %></li>

@@ -12,6 +12,8 @@ gem 'factory_girl_rails'
 gem 'draper'
 gem 'js-routes'
 gem 'paperclip'
+gem 'omniauth'
+gem 'omniauth-twitter'
 
 group :test do
   gem 'shoulda'
