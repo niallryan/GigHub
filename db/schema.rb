@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130521143023) do
+ActiveRecord::Schema.define(:version => 20130522111810) do
 
   create_table "authentications", :force => true do |t|
     t.integer  "user_id"
@@ -56,6 +56,15 @@ ActiveRecord::Schema.define(:version => 20130521143023) do
   end
 
   add_index "statuses", ["user_id"], :name => "index_statuses_on_user_id"
+
+  create_table "user_event_attendances", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "event_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "user_event_attendances", ["user_id", "event_id"], :name => "index_user_event_attendances_on_user_id_and_event_id"
 
   create_table "user_friendships", :force => true do |t|
     t.integer  "user_id"
