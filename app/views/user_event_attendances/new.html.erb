@@ -1,0 +1,15 @@
+<% if @event %>
+
+    <h1><%= @event.name %></h1>
+
+    <p>Are you sure you want to attend <%= @event.name %>?</p>
+
+    <%= form_for @user_event_attendance, method: :post do |form| %>
+        <div class="form form-actions">
+          <%= form.hidden_field :event_id, value: @event.id %>
+          <%= submit_tag "Yes, Attend Event", class: "btn btn-primary" %>
+          <%= link_to "Cancel", event_path(@event), class: "btn" %>
+        </div>
+    <% end %>
+
+<% end %>

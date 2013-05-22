@@ -1,5 +1,7 @@
 <p id="notice"><%= notice %></p>
 
+<%= link_to "Attend Event", new_user_event_attendance_path(event_id: @event), class: 'btn' %>
+
 <p>
   <b>Name:</b>
   <%= @event.name %>
