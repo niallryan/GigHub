@@ -14,6 +14,9 @@ gem 'js-routes'
 gem 'paperclip'
 gem 'omniauth'
 gem 'omniauth-twitter'
+gem 'cancan'
+gem 'opinio'
+gem 'cocaine'
 
 group :test do
   gem 'shoulda'
@@ -55,3 +58,5 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+gem "kaminari"

@@ -6040,3 +6040,55 @@ a.badge:hover {
 
 /* Custom Stuff */
 
+body {
+    padding-top: 40px;
+    background: url("back.jpg");
+    background-attachment:fixed;
+    background-position:center;
+    color: white;
+}
+
+textarea {
+    width: 500px;
+    height: 100px;
+}
+
+a {
+    color: red;
+}
+
+.photo, .pad {
+    padding-top: 40px;
+}
+
+h1 {
+    color: white;
+}
+
+.status {
+    background-color: dimgray;
+}
+
+.friend  {
+    background-color: dimgray;
+    margin-top: 10px;
+}
+
+.welcome {
+    margin-top: 40px;
+    padding-left: 10px;
+    height: 530px;
+}
+
+.welcome h3 {
+    color: black;
+}
+
+#sign_in_welcome {
+    position: relative;
+    top: 100px;
+}
+
+.well {
+    color: black;
+}

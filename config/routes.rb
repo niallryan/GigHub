@@ -1,12 +1,16 @@
 GigHub::Application.routes.draw do
 
+  opinio_model
+
   match 'auth/:provider/callback' => 'authentications#create'
 
   resources :authentications
 
   get "welcome/home"
 
-  resources :events
+  resources :events do
+    opinio
+  end
 
   get "profiles/show"
 
@@ -30,12 +34,16 @@ GigHub::Application.routes.draw do
     end
   end
 
-  resources :statuses
+  resources :statuses do
+    opinio
+  end
+
   get 'feed', to: 'statuses#index', :as => :feed
 
   get '/:id', to: 'profiles#show', :as => :profile
 
   resources :user_event_attendances
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

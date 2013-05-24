@@ -5,8 +5,5 @@ FactoryGirl.define do
     user_id 1
     provider "MyString"
     uid "MyString"
-    index "MyString"
-    create "MyString"
-    destroy "MyString"
   end
 end

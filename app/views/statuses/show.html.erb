@@ -1,19 +1,24 @@
-<p id="notice"><%= notice %></p>
+<div class="well">
 
-<p>
-  <b>Name:</b>
-  <%=  @status.user.full_name %>
-</p>
+  <p id="notice"><%= notice %></p>
 
-<p>
-  <b>Content:</b>
-  <%= @status.content %>
-</p>
+  <p>
+    <b>Name:</b>
+    <%=  @status.user.full_name %>
+  </p>
 
-<% if @status.document && @status.document.attachment? %>
+  <p>
+    <b>Content:</b>
+    <%= @status.content %>
+  </p>
+
+  <% if @status.document && @status.document.attachment? %>
     <%= status_document_link @status %>
-<% end %>
+  <% end %>
 
+  <%= comments_for @status %>
 
-<%= link_to 'Edit', edit_status_path(@status) %> |
-<%= link_to 'Back', statuses_path %>
+  <%= link_to 'Edit', edit_status_path(@status) %> |
+  <%= link_to 'Back', statuses_path %>
+
+</div>

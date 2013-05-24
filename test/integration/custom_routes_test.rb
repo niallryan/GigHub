@@ -1,3 +1,6 @@
+# Treehouse (2013) Building Social Features in Ruby on Rails. [online]
+# Available at: http://teamtreehouse.com/library/programming/building-social-features-in-ruby-on-rails [Accessed: 23 May 2013].
+
 require 'test_helper'
 
 class CustomRoutesTest < ActionDispatch::IntegrationTest

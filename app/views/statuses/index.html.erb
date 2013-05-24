@@ -1,5 +1,5 @@
 <div class="page-header">
-    <h1>Updates</h1>
+    <h1>Discussions</h1>
 </div>
 
 <%= link_to "Post A New Status", new_status_path, class: "btn btn-success" %>
@@ -20,6 +20,9 @@
           <%=  link_to "Edit", edit_status_path(status) %> |
           <%=  link_to "Delete", status, method: :delete, data: { confirm: "Are you sure you want to delete this status?"} %>
         </span>
+        <div>
+          <%= comments_for status %>
+        </div>
       </div>
       </div>
     </div>

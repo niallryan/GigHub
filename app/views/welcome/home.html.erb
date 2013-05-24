@@ -1,11 +1,49 @@
-<h1>Welcome</h1>
+<div class="span6 well welcome">
 
-<p>Welcome to GigHub, the blah blah blah blah blah.</p>
+  <div>
 
-<%= link_to "Register", new_user_registration_path %>
+    <h3>Welcome</h3>
 
-<h2>Sign In to your account using Twitter</h2>
-<a href="/auth/twitter" class="auth_provider">
-  <%= image_tag "twitter_64.png", :size => "64x64", :alt => "Twitter" %>
-  Twitter
-</a>
+    <p>Welcome to GigHub, the social network for music fans and professionals.</p>
+
+  </div>
+
+  <% if !signed_in? %>
+  <div>
+
+    <%= link_to "Register", new_user_registration_path %>
+
+  </div>
+
+  <div id="sign_in_welcome">
+
+    <h3>Sign In to your account using Twitter</h3>
+    <a href="/auth/twitter" class="auth_provider">
+        <%= image_tag "twitter_64.png", :size => "64x64", :alt => "Twitter" %>
+        Twitter
+    </a>
+
+  </div>
+
+  <% end %>
+
+  <% if user_signed_in? %>
+      <h3>Search For Users</h3>
+      <%= form_tag @user, :method => 'get' do %>
+          <p>
+            <%= text_field_tag :search_query, params[:search_query] %>
+            <%= submit_tag "Search", :name => nil %>
+          </p>
+      <% end %>
+      <% if @users %>
+        <% @users.each do |user| %>
+        <%= link_to "#{user.full_name}", profile_path(user) %>
+        <% end %>
+      <% end %>
+  <% end %>
+
+</div>
+
+<div class="span5">
+  <%= image_tag "img_5735.jpg", class: 'photo' %>
+</div>

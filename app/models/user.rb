@@ -1,3 +1,12 @@
+# Treehouse (2013) Build a Simple Ruby on Rails Application. [online]
+# Available at: http://teamtreehouse.com/library/programming/build-a-simple-ruby-on-rails-application [Accessed: 23 May 2013].
+
+# Treehouse (2013) Building Social Features in Ruby on Rails. [online]
+# Available at: http://teamtreehouse.com/library/programming/building-social-features-in-ruby-on-rails [Accessed: 23 May 2013].
+
+# Treehouse (2013) Advanced Social Features in Ruby on Rails. [online]
+# Available at: http://teamtreehouse.com/library/programming/advanced-social-features-in-ruby-on-rails [Accessed: 23 May 2013].
+
 class User < ActiveRecord::Base
   # Include default devise modules. Others available are:
   # :token_authenticatable, :encryptable, :confirmable, :lockable, :timeoutable and :omniauthable
@@ -47,6 +56,12 @@ class User < ActiveRecord::Base
     downcased_email = stripped_email.downcase
     hash = Digest::MD5.hexdigest(downcased_email)
     "http://gravatar.com/avatar/#{hash}"
+  end
+
+  def self.search(search_query)
+    if search_query
+      find(:all,:conditions => ['first_name LIKE ?', "%#{search_query}%"])
+    end
   end
 
 end

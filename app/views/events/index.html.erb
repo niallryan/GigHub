@@ -4,12 +4,25 @@
 
 <%= link_to "Create A New Event", new_event_path, class: "btn btn-success" %>
 
+<hr />
+
+<%= form_tag events_path, :method => 'get' do %>
+    <p>
+      <%= text_field_tag :search_query, params[:search_query] %>
+      <%= submit_tag "Search", :name => nil %>
+    </p>
+<% end %>
+
+<hr />
+
 <% @events.each do |event| %>
   <div class="status">
     <div class="row">
-      <div class="span8">
+      <div class="span1">
+        <%= image_tag event.picture.url(:thumb) %>
+      </div>
+      <div class="span7">
         <strong><%= event.name %></strong>
-        <p><%= event.content %></p>
         <div class="meta">
           <%= link_to time_ago_in_words(event.created_at) + " ago", event %> |
           <span class="admin">

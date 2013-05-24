@@ -13,13 +13,19 @@
         <div class="container">
           <%= link_to "GigHub", root_path, { :class => "brand" } %>
           <ul class="nav">
-            <li><%= link_to "Updates", feed_path %></li>
-            <li><%= link_to "Events", events_path %></li>
+          <% if user_signed_in? %>
+            <li><%= link_to "Discussions", feed_path %></li>
+            <li><%= link_to "All Events", events_path %></li>
+          <% end %>
           </ul>
+
           <ul class="nav pull-right">
+
             <% if user_signed_in? %>
+                <li><%= link_to "Upcoming Events", user_event_attendances_path %></li>
                 <li><%= link_to "Friends", user_friendships_path %></li>
-                <li><%= link_to current_user.full_name, edit_user_registration_path %></li>
+                <li><%= link_to "Profile", profile_path(current_user) %></li>
+                <li><%= link_to "Edit Profile", edit_user_registration_path %></li>
                 <li><%= link_to "Logout", logout_path %></li>
             <% else %>
                 <li><%=  link_to "Register", register_path %></li>

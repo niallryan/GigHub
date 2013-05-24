@@ -1,3 +1,6 @@
+# Treehouse (2013) Building Social Features in Ruby on Rails. [online]
+# Available at: http://teamtreehouse.com/library/programming/building-social-features-in-ruby-on-rails [Accessed: 23 May 2013].
+
 class UserFriendship < ActiveRecord::Base
   belongs_to :user
   belongs_to :friend, class_name: 'User', foreign_key: 'friend_id'

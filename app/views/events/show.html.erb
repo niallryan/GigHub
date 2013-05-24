@@ -1,17 +1,25 @@
-<p id="notice"><%= notice %></p>
+<div class="well">
+    <p id="notice"><%= notice %></p>
 
-<%= link_to "Attend Event", new_user_event_attendance_path(event_id: @event), class: 'btn' %>
+    <%= link_to "Attend Event", new_user_event_attendance_path(event_id: @event), class: 'btn' %>
 
-<p>
-  <b>Name:</b>
-  <%= @event.name %>
-</p>
+    <div>
+        <%= image_tag @event.picture %>
+    </div>
 
-<p>
-  <b>Content:</b>
-  <%= @event.content %>
-</p>
+    <p>
+        <b>Name:</b>
+        <%= @event.name %>
+    </p>
 
+    <p>
+        <strong>Content:</strong>
+        <%= @event.content %>
+    </p>
 
-<%= link_to 'Edit', edit_event_path(@event) %> |
-<%= link_to 'Back', events_path %>
+    <%= comments_for @event, :limit => 10 %>
+
+    <%= link_to 'Edit', edit_event_path(@event) %> |
+    <%= link_to 'Back', events_path %>
+
+</div>

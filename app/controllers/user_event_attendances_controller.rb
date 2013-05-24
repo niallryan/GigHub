@@ -26,5 +26,13 @@ class UserEventAttendancesController < ApplicationController
 
   end
 
-end
+  def index
+    @user_event_attendances = current_user.user_event_attendances.all
+    respond_with @user_event_attendances
+  end
 
+  def show
+
+  end
+
+end

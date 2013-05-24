@@ -13,11 +13,21 @@
 <% end %>
 
 <% if @statuses %>
+    <h3>Statuses</h3>
     <% @statuses.each do |status| %>
-    <div class="well">
+    <div class="well span8">
       <%= status.content %>
       <hr />
       <%= link_to time_ago_in_words(status.created_at), status_path(status) %> ago
     </div>
+    <% end %>
+<% end %>
+
+<% if @user_event_attendances %>
+    <h3>Upcoming Events</h3>
+    <% @user_event_attendances.each do |event| %>
+        <div class="well span8">
+          <%= event.name %>
+        </div>
     <% end %>
 <% end %>
